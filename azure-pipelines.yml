@@ -12,7 +12,7 @@ pool:
 steps:
 - task: wiz@1
   inputs:
-    serviceConnectionId: 'Wiz'
+    serviceConnectionId: 'wiz-devops-aluizio'
     command: 'scan'
     scanType: 'dir'
     path: '.'
